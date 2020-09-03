@@ -9,15 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlvaroAlves/PetShopRestAPI.git"
+    "url": "git+https://github.com/AlvaroAlves/PetShopAPI"
   },
   "author": "Alvaro Alves",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlvaroAlves/PetShopRestAPI/issues"
+    "url": "https://github.com/AlvaroAlves/PetShopAPI/issues"
   },
-  "homepage": "https://github.com/AlvaroAlves/PetShopRestAPI#readme",
+  "homepage": "https://github.com/AlvaroAlves/PetShopAPI#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
