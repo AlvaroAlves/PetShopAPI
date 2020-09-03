@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AlvaroAlves/PetShopRestAPI/issues"
   },
-  "homepage": "https://github.com/AlvaroAlves/PetShopRestAPI#readme"
+  "homepage": "https://github.com/AlvaroAlves/PetShopRestAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
