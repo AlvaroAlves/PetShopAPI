@@ -3,7 +3,14 @@ const Atendimento = require('../models/atendimento')
 module.exports = app => {
     
     app.get('/atendimentos', (req, res) => {
-        res.send('Página de atendimentos')
+        Atendimento.lista(res)
+    })
+
+    app.get('/atendimentos/:id', (req,res) => {
+        //transform id from string to int
+        const id = parseInt(req.params.id)
+
+        Atendimento.buscaPorId(id, res)
     })
 
     app.post('/atendimentos', (req, res)=>{
